@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/audit-informations",
+      "handler": "audit-information.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/audit-informations/count",
+      "handler": "audit-information.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/audit-informations/:id",
+      "handler": "audit-information.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/audit-informations",
+      "handler": "audit-information.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/audit-informations/:id",
+      "handler": "audit-information.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/audit-informations/:id",
+      "handler": "audit-information.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

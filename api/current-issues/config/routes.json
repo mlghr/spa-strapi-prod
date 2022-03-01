@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/current-issues",
+      "handler": "current-issues.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/current-issues/count",
+      "handler": "current-issues.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/current-issues/:id",
+      "handler": "current-issues.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/current-issues",
+      "handler": "current-issues.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/current-issues/:id",
+      "handler": "current-issues.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/current-issues/:id",
+      "handler": "current-issues.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

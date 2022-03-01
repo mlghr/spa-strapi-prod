@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/scsi",
+      "handler": "scsi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/scsi",
+      "handler": "scsi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/scsi",
+      "handler": "scsi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

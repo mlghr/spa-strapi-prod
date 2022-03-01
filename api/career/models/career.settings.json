@@ -16,11 +16,13 @@
       "type": "string"
     },
     "description": {
-      "type": "richtext",
-      "maxLength": 300
+      "type": "richtext"
     },
-    "start_date": {
+    "job_start_date": {
       "type": "date"
+    },
+    "job_link": {
+      "type": "string"
     }
   }
 }

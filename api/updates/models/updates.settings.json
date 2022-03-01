@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "updates",
+  "info": {
+    "name": "Updates",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

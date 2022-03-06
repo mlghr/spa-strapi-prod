@@ -15,17 +15,8 @@
     "country_name": {
       "type": "string"
     },
-    "media": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+    "links": {
+      "type": "richtext"
     }
   }
 }

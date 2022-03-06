@@ -7,14 +7,15 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "test": "test"
   },
   "dependencies": {
     "knex": "0.21.18",
-    "pg": "^8.7.3",
+    "pg": "^8.7.1",
     "sendmail": "^1.6.1",
     "sqlite3": "5.0.0",
-    "strapi": "^3.6.9",
+    "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
     "strapi-connector-bookshelf": "3.6.8",
     "strapi-plugin-content-manager": "3.6.8",
@@ -37,4 +38,5 @@
     "node": ">=10.16.0 <=14.x.x",
     "npm": "^6.0.0"
   },
-  "lic
+  "license": "MIT"
+}

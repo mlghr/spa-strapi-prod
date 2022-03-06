@@ -12,14 +12,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "description": {
       "type": "richtext"
-    },
-    "category": {
-      "type": "string"
     }
   }
 }

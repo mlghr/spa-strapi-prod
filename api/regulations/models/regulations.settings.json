@@ -12,8 +12,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "country_name": {
-      "type": "string"
+    "description": {
+      "type": "richtext"
     }
   }
 }

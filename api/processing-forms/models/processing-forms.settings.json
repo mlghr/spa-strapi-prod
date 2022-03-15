@@ -12,8 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "description": {
-      "type": "richtext"
+    "title": {
+      "type": "string"
+    },
+    "media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

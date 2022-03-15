@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "member_companies",
+  "info": {
+    "name": "MemberCompanies",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "n_name": {
+      "type": "enumeration",
+      "enum": [
+        "Thing",
+        "Stuff",
+        "Object",
+        "Yes"
+      ]
+    }
+  }
+}

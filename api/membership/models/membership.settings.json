@@ -12,10 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "unique": true
-    },
     "description": {
       "type": "richtext"
     }

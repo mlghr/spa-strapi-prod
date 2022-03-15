@@ -4,7 +4,7 @@ module.exports = {
       enabled: true,
       multipart: true,
       formidable: {
-        maxFileSize: 200 * 1024 * 1024 // Defaults to 200mb
+        maxFileSize: 20000 * 1024 * 1024 // Defaults to 200mb (200)
       }
     }
   },

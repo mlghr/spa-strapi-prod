@@ -8,21 +8,12 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
     "name": {
       "type": "string"
-    },
-    "n_name": {
-      "type": "enumeration",
-      "enum": [
-        "Thing",
-        "Stuff",
-        "Object",
-        "Yes"
-      ]
     }
   }
 }

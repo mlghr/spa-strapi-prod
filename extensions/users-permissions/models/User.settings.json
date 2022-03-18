@@ -65,7 +65,7 @@
     "lastName": {
       "type": "string"
     },
-    "member_company": {
+    "memberCompany": {
       "type": "string"
     }
   }

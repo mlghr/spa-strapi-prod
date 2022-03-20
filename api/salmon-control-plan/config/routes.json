@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/salmon-control-plans",
+      "handler": "salmon-control-plan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/salmon-control-plans/count",
+      "handler": "salmon-control-plan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/salmon-control-plans/:id",
+      "handler": "salmon-control-plan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/salmon-control-plans",
+      "handler": "salmon-control-plan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/salmon-control-plans/:id",
+      "handler": "salmon-control-plan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/salmon-control-plans/:id",
+      "handler": "salmon-control-plan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

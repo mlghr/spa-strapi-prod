@@ -17,12 +17,6 @@
     },
     "description": {
       "type": "richtext"
-    },
-    "job_start_date": {
-      "type": "date"
-    },
-    "job_link": {
-      "type": "string"
     }
   }
 }

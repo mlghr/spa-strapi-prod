@@ -11,7 +11,11 @@
     "admin": "strapi develop --watch-admin"
   },
   "dependencies": {
-    "knex": "0.21.18",
+    "@sendgrid/mail": "^7.6.2",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.18",
     "pg": "^8.7.1",
     "sqlite3": "5.0.0",
     "strapi": "^3.6.8",

@@ -1,0 +1,10 @@
+{
+  "provider": "sendgrid",
+  "providerOptions": {
+    "apiKey": "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"
+  },
+  "settings": {
+    "defaultFrom": "lsouthland@spa-food.org",
+    "defaultReplyTo": "no-reply@spa-food.org"
+  }
+}

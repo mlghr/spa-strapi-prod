@@ -11,7 +11,6 @@
     "admin": "strapi develop --watch-admin"
   },
   "dependencies": {
-    "@sendgrid/mail": "^7.6.2",
     "bcryptjs": "^2.4.3",
     "express": "^4.17.3",
     "jsonwebtoken": "^8.5.1",
@@ -28,7 +27,7 @@
     "strapi-plugin-i18n": "3.6.8",
     "strapi-plugin-upload": "3.6.8",
     "strapi-plugin-users-permissions": "3.6.8",
-    "strapi-provider-email-sendgrid": "^3.6.8",
+    "strapi-provider-email-sendgrid": "^3.6.10",
     "strapi-provider-upload-aws-s3": "^3.6.8",
     "strapi-utils": "3.6.8"
   },
@@ -37,10 +36,6 @@
   },
   "strapi": {
     "uuid": "5671da49-8651-4f46-8398-973ead9b5487"
-  },
-  "engines": {
-    "node": ">=10.16.0 <=14.x.x",
-    "npm": "^6.0.0"
   },
   "license": "MIT"
 }

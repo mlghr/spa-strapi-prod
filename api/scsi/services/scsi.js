@@ -1,8 +1,5 @@
-'use strict';
+// path: ./src/api/<content-type-name>/services/<service-name>.js
 
-/**
- * Read the documentation (https://strapi.io/documentation/developer-docs/latest/development/backend-customization.html#core-services)
- * to customize this service
- */
+const { createCoreService } = require('@strapi/strapi').factories
 
-module.exports = {};
+module.exports = createCoreService('api::scsi.scsi')

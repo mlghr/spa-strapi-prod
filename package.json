@@ -8,7 +8,8 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "admin": "strapi develop --watch-admin"
+    "admin": "strapi develop --watch-admin",
+    "commit": "git-cz"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -35,5 +36,8 @@
   "strapi": {
     "uuid": "5671da49-8651-4f46-8398-973ead9b5487"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "git-cz": "^4.9.0"
+  }
 }

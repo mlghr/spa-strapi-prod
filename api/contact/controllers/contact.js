@@ -1,5 +1,8 @@
-// path: ./src/api/<content-type-name>/controllers/<controller-name>.js
+'use strict';
 
-const { createCoreController } = require("@strapi/strapi").factories;
+/**
+ * Read the documentation (https://strapi.io/documentation/developer-docs/latest/development/backend-customization.html#core-controllers)
+ * to customize this controller
+ */
 
-module.exports = createCoreController("api::contact.contact");
+module.exports = {};

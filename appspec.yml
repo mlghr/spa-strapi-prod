@@ -2,17 +2,12 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/spa-strapi
-hook:
-  ApplicationStop:
-  - location: scripts/application_stop.sh
-    timeout: 300
-    runas: ec2-user
+    destination: /usr/share/nginx/html
+    overwrite: true
+hooks:
   BeforeInstall:
-    - location: scripts/before_install.sh
+    - location: scripts/BeforeInstallHook.sh
       timeout: 300
-      runas: ec2-user
-  ApplicationStart:
-    - location: scripts/application_start.sh
+  AfterInstall:
+    - location: scripts/AfterInstallHook.sh
       timeout: 300
-      runas: ec2-user
